@@ -9,7 +9,7 @@ import ErrorMsg from "./ErrorMsg/ErrorMsg";
 import Loader from "./Loader/Loader";
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect} from "react";
-import {fetchContacts} from "../redux/contactsThunk";
+import {fetchContacts} from "../redux/contactsOps";
 import {selectContacts, selectError, selectLoading} from "../redux/contactsSlice";
 
 const App = () => {
